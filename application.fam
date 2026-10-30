@@ -1,0 +1,13 @@
+App(
+    appid="geodash",
+    name="GeoDash",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="geodash_app",
+    stack_size=4096,
+    fap_category="Games",
+    fap_version=(1, 6),
+    # Optional: add assets/fap_icon.png (10x10, 1-bit) and uncomment to get a custom menu icon.
+    # fap_icon="assets/fap_icon.png",
+    requires=["gui", "storage"],
+    order=10,
+)
